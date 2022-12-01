@@ -78,9 +78,6 @@ body {
 }
 
 .contact-navigation-link {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 
@@ -148,7 +145,7 @@ body {
   color: var(--main-color);
 }
 
-/* -- tesm -- */
+/* -- team -- */
 
 .team {
   background-color: var(--main-team-color);
@@ -190,8 +187,6 @@ body {
 /* -- portfolio -- */
 
 .filter-button {
-  font-family: inherit;
-  font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
