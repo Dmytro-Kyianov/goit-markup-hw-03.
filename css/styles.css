@@ -77,8 +77,7 @@ button {
 
 .page-header {
   /* outline: 2px solid tomato; */
-  padding-top: 24px;
-  padding-bottom: 24px;
+  
 
   border-bottom: 1px solid #E7E9FC;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -104,9 +103,14 @@ button {
   display: flex;
 }
 
+.header-logo-first,
+.header-logo-second,
+.site-navigation .item,
+.contact-navigation .item {
+  padding: 24px 0px;
+}
 
-
-.site-navigation .item:first-child {
+.site-navigation {
   margin-left: 76px;
 }
 
@@ -188,8 +192,9 @@ button {
 }
 
 .hero .container {
-width: 496px;
-padding: 0;
+width: 526px;
+padding-left: 15px;
+padding-right: 15px;
 }
 
 .hero-title {
@@ -232,6 +237,10 @@ padding: 0;
 .about-us {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.about-list li {
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .about-list .item + .item {
@@ -280,6 +289,10 @@ padding: 0;
   color: var(--main-color);
 }
 
+.our-job-list .item {
+  width: calc((100% - 2 * 24px) / 3);
+}
+
 .our-job-list .item + .item {
   margin-left: 24px;
 }
@@ -296,18 +309,17 @@ padding: 0;
   background-color: var(--title-color);
 }
 
+.team-list li{
+  width: calc((100% - 3 * 24px) / 4);
+}
+
 .team-list .item + .item {
   margin-left: 24px;
-  text-align: center;
+  
 }
 
-.team-list .subtitle {
-  margin-top: 32px;
-  text-align: center;
-}
-
-.team-list .text {
-  margin-bottom: 32px;
+.team-member {
+  padding: 32px 16px;
   text-align: center;
 }
 
@@ -360,7 +372,7 @@ padding: 0;
   gap: 24px;
   align-items: flex-start;
   justify-content: center;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .filter-button {
@@ -396,7 +408,6 @@ padding: 0;
 
 .portfolio-list {
   display: flex;
-  padding-bottom: 120px;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
@@ -405,17 +416,13 @@ padding: 0;
 .portfolio-list .item {
   width: calc((100% - 24px * 2) / 3);
   background: #FFFFFF;
-  border: 1px solid #E7E9FC;
 }
 
-.portfolio-list .item .subtitle {
-  padding-top: 32px;
-  padding-left: 16px;
-}
-
-.portfolio-list .item .text {
-  padding-left: 16px;
-  padding-bottom: 32px;
+.description {
+ padding: 32px 16px;
+ border-left: 1px solid #E7E9FC;
+ border-right: 1px solid #E7E9FC;
+ border-bottom: 1px solid #E7E9FC;
 }
 
 
