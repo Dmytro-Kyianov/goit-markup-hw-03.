@@ -93,6 +93,11 @@ button {
    
 }
 
+.site-navigation,
+.contact-navigation {
+  align-items: center;
+}
+
 .page-header .container,
 .header-navigation, 
 .site-navigation,
@@ -105,8 +110,8 @@ button {
 
 .header-logo-first,
 .header-logo-second,
-.site-navigation .item,
-.contact-navigation .item {
+.site-navigation-link,
+.contact-navigation-link {
   padding: 24px 0px;
 }
 
